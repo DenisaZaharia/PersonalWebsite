@@ -1,0 +1,170 @@
+/* ConnectYall */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000000;
+}
+
+.imageMan img {
+  max-width: 100%;
+  height: auto;
+}
+.overview {
+  padding: 50px;
+}
+.overviewLeft {
+  width: 60%;
+}
+.overviewRight {
+  width: 40%;
+}
+
+.informationProject {
+  display: flex;
+  justify-content: center;
+}
+.informationProject h2 {
+  font-weight: bold;
+  font-size: 2em;
+  color: white;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+.informationProject p {
+  color: white;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+div.overview div {
+  padding: 9px 15px;
+  width: 130px;
+  text-align: center;
+  color: white;
+}
+.overview div {
+  border: 2px solid rgb(213, 228, 255, 0.3);
+  border-left: 4px solid rgb(213, 228, 255, 0.4);
+}
+
+.overview div:hover {
+  border-left: 4px solid rgb(215, 175, 253, 0.6);
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+
+.idea {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  margin-bottom: 4rem;
+}
+.inspirationInfo {
+  color: white;
+  letter-spacing: 2px;
+  width: 70%;
+  padding: 20px;
+  line-height: 1.6;
+}
+.inspirationInfo h1 {
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.welcomeImage {
+  width: 30%;
+}
+.welcomeImage img {
+  width: 300px;
+  height: auto;
+}
+
+.logoImg,
+.wireframesImg,
+.colourPallete,
+.prototypeImg {
+  text-align: center;
+}
+.logoImg img {
+  max-width: 25%;
+  margin-bottom: 4rem;
+}
+
+.brandingInfo,
+.sketching {
+  width: 60%;
+  margin: auto;
+  max-width: 68rem;
+  line-height: 1.7;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  font-size: 20px;
+  color: white;
+}
+
+.brandingInfo h1,
+.sketching h1 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.wireframesImg img,
+.colourPallete img,
+.prototypeImg img {
+  max-width: 70%;
+  margin-bottom: 4rem;
+  border-radius: 19px;
+}
+.interfaceDesign img {
+  max-width: 100%;
+  height: auto;
+}
+
+.uniqueInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+}
+
+div.uniqueInfo div {
+  padding: 30px 60px;
+  margin: 10px;
+}
+.uniqueInfo h2 {
+  color: #c197d2;
+}
+
+.uniqueInfo p {
+  color: white;
+}
+.interfaceDesign h1 {
+  color: #c197d2;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 56px;
+  margin-bottom: 60px;
+  letter-spacing: 0.3em;
+}
+footer {
+  width: 100vw;
+  padding: 50px 100px;
+  color: white;
+  text-align: center;
+}
+
+footer h1 {
+  font-size: 1em;
+  letter-spacing: 2px;
+}
